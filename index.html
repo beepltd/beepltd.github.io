@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Beep</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-img {
+  width:200px;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('assets/bg2.jpg');
+  min-height: 100%;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+  .logo-img {
+    width:120px;
+  }
+}
+</style>
+</head><body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img src="assets/logo.svg" class="logo-img" />
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">WE BUILD INNOVATIVE SOLUTIONS TO TRANSPORT PROBLEMS</h3>
+  <p>Based in Plymouth, UK, we build software and solutions to make transport more seamless. Our first product, <strong>Beep Scholars</strong>, allows Local Authorities track passenger numbers on closed contract school services, using ITSO cards, at a fraction of the cost of a full-ITSO scheme.</p>
+  <p><a href="mailto:contact@beeptravel.com">Contact us</a> for more information.</p>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity">
+  <p>&copy; Beep Ltd</p>
+</footer>
+
+</body></html>

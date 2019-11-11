@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" version="1.1">
+<circle cx="42" cy="42" r="5.14" fill="white" opacity="0.8"></circle>
+<circle cx="25" cy="42" r="4.03" fill="white" opacity="0.7"></circle>
+<circle cx="8" cy="42" r="5.33" fill="white" opacity="0.73"></circle>
+
+<circle cx="42" cy="25" r="6.86" fill="white" opacity="0.94"></circle>
+<circle cx="25" cy="25" r="5.7" fill="white" opacity="0.84"></circle>
+<circle cx="8" cy="25" r="4.6" fill="white" opacity="0.75"></circle>
+
+<circle cx="42" cy="8" r="4.95" fill="white" opacity="0.78"></circle>
+<circle cx="25" cy="8" r="5.9" fill="white" opacity="0.86"></circle>
+<circle cx="8" cy="8" r="7.17" fill="white" opacity="0.97"></circle>
+</svg>
